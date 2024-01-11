@@ -14,11 +14,6 @@ class _IntroScreenState extends State<IntroScreen> {
 
   int ind = 0;
 
-  // init()async{
-  //   SharedPreferences preferences = await SharedPreferences.getInstance();
-  //   preferences.setString('id', "");
-  // }
-
   onPage(int index) {
     setState(() {
       ind = index;
